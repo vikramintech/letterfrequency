@@ -1,5 +1,6 @@
 console.clear();
-
+// prompts the user for input
+let input = prompt("Enter the sentence having a lot o in it", "ex:cool");
 // getLetterFrequency functions gives the no of occurence of letter "o" in a given sentence
 
 function getLetterFrequency(sentence) {
@@ -16,8 +17,7 @@ function getLetterFrequency(sentence) {
   return count;
 }
 
-// input will given to function as an argument
-const input = "Rovor herO";
-
 // invoking getLetterFrequency()
-console.log(getLetterFrequency(input));
+let result = getLetterFrequency(input);
+console.log(result);
+alert(result);
